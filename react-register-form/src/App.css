@@ -1,9 +1,146 @@
 .form {
   text-align: center;
+  max-width: 390px;
+  background: rgb(70, 82, 87);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  left:37%;
+  font-style: italic;
+  color: #fcfcfc;
+  text-decoration: red;
 }
 .border-b {
   border-bottom-width: 1px ;
 }
-.forms {
+table {
+  
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+.for {
   text-align: center;
+  position: relative;
+  left:0%;
+}
+
+.table {
+  text-align: center; 
+  position: relative;
+  left: 23%;
+  top: 0%;
+  max-width: 50%;
+  background: rgb(70, 82, 87);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.781);
+  overflow: hidden;
+  color: rgb(233, 233, 233);
+  font-style: oblique;
+}
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  resize: vertical;
+  border-radius:11px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* */
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.butt {
+	box-shadow:inset 0px 1px 0px 0px #000000;
+	background:linear-gradient(to bottom, #fd0303 5%, #9c968e 100%);
+	background-color:#070707;
+	border-radius:11px;
+	border:2px solid #fafafa;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcfcfc;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d3cfc9;
+}
+.butt:hover {
+	background:linear-gradient(to bottom, #01ff0e 5%, #fcfcfc 100%);
+	background-color:#585050;
+}
+.butt:active {
+	position:relative;
+	top:1px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+th {
+  background-color: #201d1d;
+  color: white;
+}
+th,
+td {
+  width: 175px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius:11px;
+}
+.center {
+  text-align: center;
+}
+.butts {
+	box-shadow:inset 0px 1px 0px 0px #000000;
+	background:linear-gradient(to bottom, #00ff15 5%, #ffffff 100%);
+	background-color:#070707;
+	border-radius:11px;
+	border:2px solid #fafafa;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size:10px;
+	font-weight:bold;
+	padding:8px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d3cfc9;
+}
+.butts:hover {
+	background:linear-gradient(to bottom,  #ff3300 5%, #fdfdfd 100%);
+	background-color:#585050;
+  color: #000000;
+}
+.butts:active {
+	position:relative;
+	top:1px;
 }
